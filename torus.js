@@ -12,15 +12,16 @@ function torus(si, sj, r, R) {
     
     for (let i = 0; i < si; i++) {
         const a = ((Math.PI * 2) / si) * i;//角度(0 ~ Math.PI * 2)
-        cosA = Math.cos(a);//x
-        sinA = Math.sin(a);//y
+        const cosA = Math.cos(a);//x
+        const sinA = Math.sin(a);//y
         for (let j = 0; j < sj; j++) {
-            const b = ((Math.Pi * 2) / sj) * j;//角度(0 ~ Math.PI * 2)
+            const b = ((Math.PI * 2) / sj) * j;//角度(0 ~ Math.PI * 2)
             const cosB = Math.cos(b);
             const sinB = Math.sin(b);
-            const x = (r * 
-            const y
-            const z
+            const x = (r * );
+            const y = ;
+            const z = ;
+            pos.push(x, y, z);
         }
     }
     return [pos, color, index];
